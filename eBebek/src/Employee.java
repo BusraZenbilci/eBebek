@@ -9,11 +9,11 @@ public class Employee {
     private int hireYear;
 
 
-    public Employee(String _name, double _salary, int _workHours, int _hireYear) {
-        this.name = _name;
-        this.salary = _salary;
-        this.workHours = _workHours;
-        this.hireYear = _hireYear;
+    public Employee(String name, double salary, int workHours, int hireYear) {
+        this.name = name;
+        this.salary = salary;
+        this.workHours = workHours;
+        this.hireYear = hireYear;
     }
 
     public String getName() {
